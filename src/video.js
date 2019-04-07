@@ -6,8 +6,6 @@ let canvas;
 let canvasElement;
 
 export const initializeDomElements = (regionID) => {
-    console.log('initializing dom elements');
-
     try {
         video = document.createElement("video");
         canvasElement = document.createElement("canvas");
@@ -17,7 +15,6 @@ export const initializeDomElements = (regionID) => {
         canvas = canvasElement.getContext("2d");
 
         $("#" + regionID).append(canvasElement);
-        console.log('went well');
     } catch (e) {
         console.log(e);
         util.debug.error("Error while try to create canvas for video frame");

@@ -24,7 +24,7 @@ window.qrCodeScanner = (function () {
 
             video.initializeDomElements(regionID);
 
-            function tick() {
+            const tick = () => {
                 util.loader.stop("#" + regionID);
 
                 if (video.ready()) {
