@@ -1,0 +1,26 @@
+{
+  "name": "apex-qr-code-scanner",
+  "version": "1.0.0",
+  "description": "![Screenshot](https://github.com/RonnyWeiss/APEX-QR-Code-Scanner/blob/master/screenshot.gif?raw=true)",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stepansojka/APEX-QR-Code-Scanner.git"
+  },
+  "author": "Ronny Weiss, Stepan Sojka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stepansojka/APEX-QR-Code-Scanner/issues"
+  },
+  "homepage": "https://github.com/stepansojka/APEX-QR-Code-Scanner#readme",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "jsqr": "^1.2.0"
+  }
+}
