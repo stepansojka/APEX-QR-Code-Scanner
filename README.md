@@ -12,6 +12,8 @@ $("#qrscanner_region").trigger("scannerPause"); => Pause the scanner
 
 $("#qrscanner_region").trigger("scannerPlay"); => Restart the scanner from pause
 
+$("#qrscanner_region").trigger("scannerStop"); => Stop the scanner
+
 $("#qrscanner_region").trigger("resetValue"); => Reset value to rescan the same QR Code if needed
 
 For working Demo just click on:
